@@ -1,0 +1,25 @@
+  .mapContainer {
+      height: 88vh;
+      width: 100%;
+  }
+
+  .mapContainer>div {
+      border-radius: 10px;
+  }
+
+  .circle {
+      background-image: url('./../../Assets/Images/location.png');
+      height: 4.5em;
+      position: relative;
+      width: 4.5em;
+  }
+
+  .circleText {
+      text-align: center;
+      height: 50%;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+  }

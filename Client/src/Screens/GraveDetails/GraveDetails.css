@@ -1,0 +1,30 @@
+.BtnStyle {
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #989898;
+    height: 60px;
+    cursor: pointer;
+}
+
+.disabledBtnStyle {
+    border-width: 1px;
+    border-radius: 10px;
+    height: 60px;
+    cursor: not-allowed;
+    background-color: #989898;
+    color: white;
+}
+
+.input-error {
+    border-color: #e63946;
+}
+
+.error {
+    color: #e63946;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+
+.labelStyle {
+    color: #293241;
+}
